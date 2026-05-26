@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:#111827;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero-text h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#38bdf8;
+    color:black;
+    padding:15px 30px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:50px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+}
+
+.login-container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    background:#1e293b;
+    padding:40px;
+    border-radius:20px;
+    width:350px;
+}
+
+.login-box input{
+    width:100%;
+    padding:15px;
+    margin-top:20px;
+    border:none;
+    border-radius:10px;
+}
+
+.login-box button{
+    width:100%;
+    padding:15px;
+    margin-top:20px;
+    border:none;
+    background:#38bdf8;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.stat-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.danger{
+    border:2px solid red;
+}
+
+.chart-section{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+}
+
+.alerts-container{
+    padding:40px;
+}
+
+.alert-box{
+    background:#1e293b;
+    margin-bottom:20px;
+    padding:20px;
+    border-left:6px solid red;
+    border-radius:10px;
+}
+
+.chat-container{
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+}
+
+.chat-box{
+    height:500px;
+    background:#1e293b;
+    padding:20px;
+    overflow-y:auto;
+    border-radius:20px;
+}
+
+.message{
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:10px;
+    max-width:70%;
+}
+
+.bot{
+    background:#334155;
+}
+
+.user{
+    background:#38bdf8;
+    color:black;
+    margin-left:auto;
+}
+
+.chat-input{
+    display:flex;
+    margin-top:20px;
+}
+
+.chat-input input{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+}
+
+.chat-input button{
+    margin-left:10px;
+    padding:15px 25px;
+    border:none;
+    background:#38bdf8;
+    border-radius:10px;
+}
